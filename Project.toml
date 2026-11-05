@@ -1,0 +1,26 @@
+name = "H3Seasons"
+uuid = "3bb50efb-f0a1-4405-a21f-c30fa6dd1f5d"
+version = "0.2.0"
+authors = ["H3 Seasons contributors"]
+
+[deps]
+Arrow = "69666777-d1a9-59fb-9406-91d4454c9d45"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+H3 = "f62fece2-b996-571a-b4c9-e662aba1c617"
+HDF4_jll = "818ab7a1-5177-5f44-ba99-6e845030c6cb"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+[compat]
+Arrow = "2"
+H3 = "0.3"
+HDF4_jll = "4"
+JSON3 = "1"
+julia = "1.10"
+
+[extras]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Random", "Test"]

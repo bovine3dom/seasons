@@ -1,0 +1,13 @@
+resolution = 4
+year = 2025
+months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+visual_min = 0.0
+visual_max = 4000.0
+visual_gamma = 1.4
+
+[land]
+url = "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_land.geojson"
+
+[nasa]
+archive_url = "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/61/MCD43C4"
+product_url = "https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/MCD43C4"

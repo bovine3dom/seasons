@@ -1,0 +1,15 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Downloaded and generated data
+/cache/
+/out/
+
+# Temporary and test output
+*.tmp
+*.cov
+*.mem
+coverage/
+.DS_Store
